@@ -9,13 +9,13 @@ python details_generator.py -h
 
 To run the script:
 ```
-python -nr <number of records> -f <csv filepath> -a
+python details_generator.py -nr <number of records> -f <csv filepath> -a
 
 Example: 
-      python -nr 50 -f "C:\details\data.csv" -a
-      python -nr 20 -a
-      python -f "C:\details\data.csv" -a
-      python -nr 10 -f "C:\details\data.csv"
+      python details_generator.py -nr 50 -f "C:\details\data.csv" -a
+      python details_generator.py -nr 20 -a
+      python details_generator.py -f "C:\details\data.csv" -a
+      python details_generator.py -nr 10 -f "C:\details\data.csv"
 
 usage: details_generator.py [-h] [-nr NUMRECORDS] [-f FILENAME] [-a]
 
